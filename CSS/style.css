@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d89ef;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 900px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calculator h2, .hasil h2 {
+    text-align: center;
+    color: #2d89ef;
+}
+
+.calculator p, .hasil p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.form-item {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tombol {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.tombol button {
+    width: 48%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2d89ef;
+}
+
+.tombol-reset {
+    background-color: #ff5f5f;
+}
+
+.tombol:hover {
+    opacity: 0.9;
+}
+
+.fitur {
+    margin-top: 2rem;
+}
+
+.fitur ol {
+    padding-left: 1.5rem;
+}
+
+.fitur p {
+    font-weight: bold;
+    color: #333;
+}
+
+.hasil {
+    margin-top: 3rem;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.tampil-hasil {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.tampil-hasil span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.tombol-download, .tombol-konsultasi, .tombol-registrasi, .konsultasi-dokter, .registrasi-dokter {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #2d89ef;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.tombol-download:hover, .tombol-konsultasi:hover, .tombol-registrasi:hover, .konsultasi-dokter:hover, .registrasi-dokter:hover {
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #2d89ef;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+.penutup {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.penutup p.atas {
+    font-weight: bold;
+    color: #2d89ef;
+}
+
+@media (max-width: 768px) {
+    .tombol {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
